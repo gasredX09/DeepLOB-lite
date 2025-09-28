@@ -1,0 +1,32 @@
+# Ignore dataset files
+data/*.csv
+data/*.zip
+data/*.tar
+data/*.gz
+
+# Ignore trained models
+models/*.h5
+models/*.hdf5
+models/*.ckpt
+*.pb
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment files
+.env
+.venv
+*.egg-info/
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
